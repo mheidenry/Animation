@@ -16,7 +16,7 @@ public class game extends GraphicsProgram {
 
 		while (true) {
 			anim.animateSprite(); //calls the object's method
-			pause(250);
+			pause(300);
 		}
 	}
 

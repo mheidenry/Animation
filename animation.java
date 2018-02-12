@@ -3,6 +3,7 @@ import acm.graphics.GImage;
 
 public class animation extends GCompound {
 
+//store images in the bin folder
 	GImage e1 = new GImage("e1.jpg");
 	GImage e2 = new GImage("e2.jpg");
 	GImage e3 = new GImage("e3.jpg");
