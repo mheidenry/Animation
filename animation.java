@@ -38,7 +38,7 @@ public class animation extends GCompound {
 	}
 
 	public animation() { //this is a constructor and this concept will be 
-//covered in a future lesson.  Note that it has the same name as the class.
+		//covered in a future lesson.  Note that it has the same name as the class.
 		e1.setSize(100, 100);
 		e2.setSize(100, 100);
 		e3.setSize(100, 100);
@@ -46,25 +46,22 @@ public class animation extends GCompound {
 		e5.setSize(100, 100);
 		e6.setSize(100, 100);
 		e7.setSize(100, 100);
+
 		e1.setVisible(false);
-
 		e2.setVisible(false);
-
 		e3.setVisible(false);
 		e4.setVisible(false);
 		e5.setVisible(false);
 		e6.setVisible(false);
 		e7.setVisible(false);
-		add(e1, 100, 100);
 
-		add(e2, 100, 100);
-
-		add(e3, 100, 100);
-		add(e4, 100, 100);
-		add(e5, 100, 100);
-		add(e6, 100, 100);
-		add(e7, 100, 100);
+		add(e1, 0, 0);
+		add(e2, 0, 0);
+		add(e3, 0, 0);
+		add(e4, 0, 0);
+		add(e5, 0, 0);
+		add(e6, 0, 0);
+		add(e7, 0, 0);
 
 	}
-
 }
